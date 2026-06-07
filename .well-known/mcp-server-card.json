@@ -1,0 +1,43 @@
+{
+  "name": "meok-bs7121-mcp",
+  "title": "Meok Bs7121 Mcp",
+  "description": "BS 7121 lift-plan compliance for UK crane + hiab operators. Parts 1/3/4/5 clause lookup, Appointed Person duties, lift-category classification, CPA Contract-Lift vs Hire triage. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "lookup_bs7121_clause"
+    },
+    {
+      "name": "classify_lift_category"
+    },
+    {
+      "name": "triage_cpa_hire_vs_contract_lift"
+    },
+    {
+      "name": "check_ap_competence"
+    },
+    {
+      "name": "validate_lift_plan"
+    },
+    {
+      "name": "calculate_ground_bearing_pressure"
+    },
+    {
+      "name": "check_exclusion_zone"
+    },
+    {
+      "name": "schedule_loler_thorough_exam"
+    },
+    {
+      "name": "check_cpcs_card"
+    },
+    {
+      "name": "check_cap1096_aviation"
+    }
+  ]
+}

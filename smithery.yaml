@@ -1,0 +1,38 @@
+name: meok-bs7121-mcp
+description: 'BS 7121 lift-plan compliance for UK crane + hiab operators. Parts 1/3/4/5 clause lookup, Appointed'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-bs7121-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: lookup_bs7121_clause
+  description: lookup bs7121 clause
+- name: classify_lift_category
+  description: classify lift category
+- name: triage_cpa_hire_vs_contract_lift
+  description: triage cpa hire vs contract lift
+- name: check_ap_competence
+  description: check ap competence
+- name: validate_lift_plan
+  description: validate lift plan
+- name: calculate_ground_bearing_pressure
+  description: calculate ground bearing pressure
+- name: check_exclusion_zone
+  description: check exclusion zone
+- name: schedule_loler_thorough_exam
+  description: schedule loler thorough exam
+- name: check_cpcs_card
+  description: check cpcs card
+- name: check_cap1096_aviation
+  description: check cap1096 aviation
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

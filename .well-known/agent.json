@@ -1,0 +1,113 @@
+{
+  "name": "meok-bs7121-mcp",
+  "description": "BS 7121 lift-plan compliance for UK crane + hiab operators. Parts 1/3/4/5 clause lookup, Appointed",
+  "url": "https://proofof.ai/scorecard/meok-bs7121-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "lookup_bs7121_clause",
+      "name": "Lookup Bs7121 Clause",
+      "description": "lookup_bs7121_clause via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "classify_lift_category",
+      "name": "Classify Lift Category",
+      "description": "classify_lift_category via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "triage_cpa_hire_vs_contract_lift",
+      "name": "Triage Cpa Hire Vs Contract Lift",
+      "description": "triage_cpa_hire_vs_contract_lift via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_ap_competence",
+      "name": "Check Ap Competence",
+      "description": "check_ap_competence via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_lift_plan",
+      "name": "Validate Lift Plan",
+      "description": "validate_lift_plan via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_ground_bearing_pressure",
+      "name": "Calculate Ground Bearing Pressure",
+      "description": "calculate_ground_bearing_pressure via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_exclusion_zone",
+      "name": "Check Exclusion Zone",
+      "description": "check_exclusion_zone via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "schedule_loler_thorough_exam",
+      "name": "Schedule Loler Thorough Exam",
+      "description": "schedule_loler_thorough_exam via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cpcs_card",
+      "name": "Check Cpcs Card",
+      "description": "check_cpcs_card via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cap1096_aviation",
+      "name": "Check Cap1096 Aviation",
+      "description": "check_cap1096_aviation via meok-bs7121-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
