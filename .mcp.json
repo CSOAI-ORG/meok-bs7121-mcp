@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-bs7121-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-bs7121-mcp"
+      ]
+    }
+  }
+}
