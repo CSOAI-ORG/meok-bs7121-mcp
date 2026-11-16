@@ -36,12 +36,11 @@ pip install meok-bs7121-mcp
 | `check_cpcs_card` | A02/A36/A40/A60/A66/A73/A85/A88 verification |
 | `check_cap1096_aviation` | CAA §50 notification for cranes near aerodromes |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £99/mo (lift plans + LOLER tracking)
-- **Pro** — £299/mo (CPA Contract Lift triage + multi-AP + audit pack)
-- **Enterprise** — £799/mo (multi-depot, SSO, Principal Contractor API)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
+
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
